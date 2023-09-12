@@ -12,7 +12,6 @@
 
   <ItemGroup>
     <None Include="wwwroot\css\bootstrap.min.css" />
-    <None Include="wwwroot\undraw_calculator_re_alsc.svg" />
   </ItemGroup>
 
 </Project>
