@@ -1,0 +1,11 @@
+﻿<h1 class="mt-5">This is Web <span class="text-danger">Calculator</span></h1>
+
+<form method="post">
+    <input type="text" class="form-control mb-1" placeholder="Enter numbers only" name="firstNumber" pattern="^\d+\.?\d*$" />
+    <input type="text" class="form-control mb-1" placeholder="Operation only +, -, *, /" name="operation" pattern="^(\+{1}|-{1}|\*{1}|\/{1})$" />
+    <input type="text" class="form-control mb-1" placeholder="Enter numbers only" name="secondNumber" pattern="^\d+\.?\d*$" />
+
+    <input type="submit" class="btn btn-primary mt-2" value="Submit" />
+</form>
+
+<h3 class="text-danger mt-4">Result: @ViewBag.Result</h3>
