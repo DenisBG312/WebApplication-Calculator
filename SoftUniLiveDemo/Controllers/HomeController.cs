@@ -36,16 +36,16 @@ namespace SoftUniLiveDemo.Controllers
             switch (operation)
             {
                 case "+":
-                    result = $"{firstNumber + secondNumber}";
+                    result = $"{firstNumber + secondNumber:f2}";
                     break;
                 case "-":
-                    result = $"{firstNumber - secondNumber}";
+                    result = $"{firstNumber - secondNumber:f2}";
                     break;
                 case "*":
-                    result = $"{firstNumber * secondNumber}";
+                    result = $"{firstNumber * secondNumber:f2}";
                     break;
                 case "/":
-                    result = $"{firstNumber / secondNumber}";
+                    result = $"{firstNumber / secondNumber:f2}";
                     break;
                 default:
                     result = "Invalid operation";
