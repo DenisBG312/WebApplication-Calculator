@@ -18,7 +18,7 @@ namespace SoftUniLiveDemo.Controllers
             return View();
         }
 
-        public IActionResult Feedback()
+        public IActionResult Socialmedias()
         {
             return View();
         }
